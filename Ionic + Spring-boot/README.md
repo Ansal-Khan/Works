@@ -10,15 +10,15 @@ Prerequisites for the usage of the applications
 
 ## You can change the configurations of database, and server ports on the 'application.yml' configuration file. However, the spring and angular apps are configured to run on the below ports for smooth working. If you change the port of spring boot app, make sure you change the same in root url inside ionic app (contact-ionic-app/src/app/api/api-configuration.ts). Also if you are changing the port number of Ionic app, make sure you change the same in the CORS configuration on the spring boot application (contact-spring-boot-app/src/main/java/com/illud/contact/config/WebConfig.java).
 
----------------------------------
-Configurations for spring boot.
+
+## Configurations for spring boot.
 	--Database name: 'mycontacts'
 	--Tables: Don't create any tables since the application creates and configure those for you.
 	--usersname: 'root'
 	--password: 'root'
 	--server-port: 8085
 
----------------------------------
-Configurations for Ionic.
+
+## Configurations for Ionic.
 	--Port: 8100 (default port)
 
