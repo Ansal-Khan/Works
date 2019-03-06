@@ -12,13 +12,13 @@ Prerequisites for the usage of the applications
 
 ---------------------------------
 Configurations for spring boot.
-	Database name: 'mycontacts'
-	Tables: Don't create any tables since the application creates and configure those for you.
-	usersname: 'root'
-	password: 'root'
-	server-port: 8085
+	## Database name: 'mycontacts'
+	## Tables: Don't create any tables since the application creates and configure those for you.
+	## usersname: 'root'
+	## password: 'root'
+	## server-port: 8085
 
 ---------------------------------
 Configurations for Ionic.
-	Port: 8100 (default port)
+	## Port: 8100 (default port)
 
