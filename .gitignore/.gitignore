@@ -1,0 +1,6 @@
+*.zip
+*.rar
+*.class
+*.jar
+*.war
+target/*
